@@ -18,6 +18,7 @@ import { ChildComponent } from './navbar-components/child/child.component';
 import { LoaderComponent } from './common/loader/loader.component';
 import { LoaderInterceptor } from './services/loader/loader.interceptor';
 import { LoginComponent } from './login-page/login/login.component';
+import { ComponentNameComponent } from './component-name/component-name.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { LoginComponent } from './login-page/login/login.component';
     BrandComponent,
     ChildComponent,
     LoaderComponent,
-    LoginComponent
+    LoginComponent,
+    ComponentNameComponent
   ],
   imports: [
     BrowserModule,
